@@ -2,6 +2,7 @@
 tac_plus-pkg:
   pkg.installed:
     - sources:
+      # tac_plus: salt://path/to/rpm/package/on/master
       - tac_plus: salt://software/tacacs/tac_plus-4.0.4.26-1.el7.nux.x86_64.rpm
 # Move conf file into place
 /etc/tac_plus.conf:
